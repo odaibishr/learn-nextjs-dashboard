@@ -34,6 +34,7 @@ export default function Page() {
             className="hidden md:block"
             width={1000}
             height={760}
+            loading='eager'
           />
           <Image
             src="/hero-mobile.png"
@@ -41,6 +42,7 @@ export default function Page() {
             className="block md:hidden"
             width={560}
             height={620}
+            loading='eager'
           />
         </div>
       </div>
